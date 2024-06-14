@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+.menu{
+    width: 90px;
+    background-color:#123;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+    padding: 5px;
+    transition: .5s all ease-in-out;
+}
+.menu:hover{
+    width: 290px;
+}
+ul{
+    list-style: none;
+    position: relative;
+    height: 95%;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-shrink: 0;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.img-box{
+    width: 50px;
+    overflow: hidden;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid white;
+    flex-shrink: 0;
+}
+.profile h2{
+    font-size: 15px;
+    text-transform: capitalize;
+    overflow: hidden;
+    text-wrap: nowrap;
+}
+li{
+    padding: 10px;
+    margin: 5px;
+}
+a{
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    padding: 40px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+a:hover,.active,.box:hover,td:hover {
+    background-color: #574f4f98;
+}
+svg{
+    font-size: 25px;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+img{
+    width: 100%;
+}
+.sign-out{
+ width: 100%;
+    position: absolute;
+    bottom: 0px;
+    text-wrap: nowrap;  
+}
+.sign-out a{
+background-color: #ff3355;
+}
+.content{
+    overflow:scroll;
+    width: 99%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(17, 34, 51, 0.774);
+}
+
+.info{
+    background-color: #0481ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+.data-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 5px;
+flex-shrink: 0;
+    }
+    .box{
+    flex-grow: 1;
+    background-color: #123;
+    height: 150px;
+    display: flex;
+ 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 150px;
+    border-radius: 8px;
+    color: white;
+}
+.box svg{
+    font-size: 50px;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.data p {
+    font-size: 2em;
+
+}
+.data span{
+    font-size: 3em;
+}
+table{
+    width: 100%;
+    border-spacing: 8px;
+}
+td,th{
+    background-color: #123;
+    height: 40px;
+    border-radius: 8px;
+}
+th{
+    font-size: 32px;
+background-color: #00ffdd;
+}
+.price,.Count{
+    padding: 6px;
+    border-radius: 6px;
+
+}
+.price{
+    background-color: green;
+}
+.Count{
+    background-color: gold;
+}
